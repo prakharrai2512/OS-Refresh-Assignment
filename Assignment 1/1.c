@@ -3,6 +3,10 @@
 
 
 int main( int argc, char *argv[])  {
+    if(argc!=2){
+        printf("Wrong no. of arguments");
+        return;
+    }
     int numw,numr;
     FILE *f1, *f2;
     char buffer[100];

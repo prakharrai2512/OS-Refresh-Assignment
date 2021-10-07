@@ -18,15 +18,15 @@ q2: 2.c
 	$(CC) 2_doublelist.c -o ques2_doublelist
 	$(CC) 2_stack.c -o ques2_stack
 	$(CC) 2_queue.c -o ques2_queue
-	.\ques2_singlelist
-	.\ques2_doublelist
-	.\ques2_stack
-	.\ques2_queue
+	./ques2_singlelist
+	./ques2_doublelist
+	./ques2_stack
+	./ques2_queue
 
 q4: 4.c
 	$(CC) 4.c -o ques4
-	.\ques4
+	./ques4
 
 q5: 5.c
 	$(CC) 5.c -o ques5
-	.\ques5
+	./ques5
