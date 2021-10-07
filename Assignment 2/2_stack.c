@@ -83,7 +83,7 @@ int main(){
     scanf("%d",&ryr1);
     scanf("%s",brh);
     head = addNode(head,nm,ryr1,rno1,brh);
-    printf("Added, new list is \n");
+    printf("Added, new stack is \n");
     printr(head); //prints list
     int n;
     printf("Input n to pop stack n times ");
