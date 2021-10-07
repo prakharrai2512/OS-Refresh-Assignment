@@ -2,8 +2,10 @@ CC=gcc
 
 all:
 	$CC 1.c -o ques1 
-	$CC 2.c -o ques2 
-	$CC 3.c -o ques3 
+	$CC 2_singlelist.c -o ques2_singlelist
+	$CC 2_doublelist.c -o ques2_doublelist
+	$CC 2_stack.c -o ques2_stack
+	$CC 2_queue.c -o ques2_queue
 	$CC 4.c -o ques4 
 	$CC 5.c -o ques5 
 
