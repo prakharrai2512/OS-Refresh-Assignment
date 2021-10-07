@@ -65,7 +65,15 @@ void delNode(node **head,int val)
     delN = NULL;
 }
 
-
+void preOrder(node *head)
+{
+    if(head != NULL)
+    {
+        printf("%d ", head->data);
+        preOrder(head->left);
+        preOrder(head->right);
+    }
+}
 void main()
 {
     node *root;
@@ -80,15 +88,21 @@ void main()
     insert(&root, 9);
     insert(&root, 88);
     insert(&root, 121);
-
+    preOrder(root);
+    printf("\n");
 
     int a;
-    printf("42, 21, 101, 24, 9, 8, 121 were added by default, enter a number to add");
+    printf("42, 21, 101, 24, 9, 8, 121 were added by default, enter a number to add\n");
+    printf("Pre-order Traversal\n");
+    preOrder(root);
+    
     scanf("%d",&a);
     insert(&root,a);
     printf("Added, input number you want to search ");
     scanf("%d",&a);
     search(&root, a);
+    printf("\nPre-order Traversal\n");
+    preOrder(root);
     
 
 }
