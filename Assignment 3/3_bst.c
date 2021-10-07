@@ -74,7 +74,7 @@ void preOrder(node *head)
         preOrder(head->right);
     }
 }
-void main()
+int main()
 {
     node *root;
     node *tmp;

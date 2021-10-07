@@ -24,7 +24,7 @@ void expo(int a,int b){
 
 int main(){
    void (*func[])(int,int) = {add,sub,mul,divy,expo};
-   printf("Enter i for add,sub,mul,div,expo in order and then input the two values required ");
+   printf("Enter i=0/1/2/3/4 for add,sub,mul,div,expo in order and then input the two values required ");
    int i,a,b;
    scanf("%d",&i);
    scanf("%d",&a);

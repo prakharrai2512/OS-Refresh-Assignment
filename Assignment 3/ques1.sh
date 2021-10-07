@@ -2,7 +2,7 @@
 
 if [ $# != 3 ]
 then
-	echo $#
+	echo Please enter date as dd mm yyyy
 else
 	if [ $3 -lt 0 ]
 	then

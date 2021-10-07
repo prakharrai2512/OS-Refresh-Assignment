@@ -120,7 +120,7 @@ void preOrder(node *head)
     }
 }
 
-void main()
+int main()
 {
     node *root;
     node *tmp;
