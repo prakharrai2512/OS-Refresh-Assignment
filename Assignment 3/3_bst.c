@@ -103,6 +103,6 @@ void main()
     search(&root, a);
     printf("\nPre-order Traversal\n");
     preOrder(root);
-    
+    return 0;
 
 }

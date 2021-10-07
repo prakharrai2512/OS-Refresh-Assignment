@@ -156,5 +156,6 @@ void main()
     printf("Add, input number you want to search ");
     scanf("%d",&a);
     search(&root, a);
+    return 0;
 }
 

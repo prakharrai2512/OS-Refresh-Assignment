@@ -86,5 +86,5 @@ int main(){
         printf("\n");
         p = p->next;
     }
-
+    return 0;
 }

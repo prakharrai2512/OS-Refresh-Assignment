@@ -62,4 +62,5 @@ int main()
     else{
         printf("Invalid entry try again");
     }
+    return 0;
 }

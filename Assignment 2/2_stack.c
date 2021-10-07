@@ -92,5 +92,6 @@ int main(){
         head = popStack(head);
     }
     printr(head);
+    return 0;
 }
 

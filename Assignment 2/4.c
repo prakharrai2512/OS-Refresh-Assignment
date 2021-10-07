@@ -30,5 +30,6 @@ int main(){
    scanf("%d",&a);
    scanf("%d",&b);
    (*func[i])(a,b);
+   return 0;
    
 }
